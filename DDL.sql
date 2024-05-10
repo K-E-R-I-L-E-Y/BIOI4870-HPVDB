@@ -25,7 +25,7 @@ CREATE TABLE genome_info(
 
 CREATE TABLE genome_fastas(
 	Accession VARCHAR(20),
-	Isolate VARCHAR(20),
+	GenBank_Title VARCHAR(50),
 	FASTA VARCHAR(9999),
 	PRIMARY KEY (Accession)
 );
